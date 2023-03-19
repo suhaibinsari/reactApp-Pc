@@ -1,0 +1,20 @@
+.btnBar {
+  margin-top: 1rem;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  border: 1px solid black;
+  width: 9.5rem;
+}

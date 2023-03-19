@@ -3,17 +3,17 @@ import "./MainSec.css";
 import headerImg from "../../assets/headerImg.png";
 function MainSec() {
   return (
-    /* <div class="card">
+    /* <div className="card">
 	
-  <div class="row g-0">
+  <div className="row g-0">
 
-    <div class="col-md-8">
+    <div className="col-md-8">
 			<h1> Move Your Audience</h1>
-    <p class="card-text">Bring Your Website to Life with Our Stunning Web Animations</p>
+    <p className="card-text">Bring Your Website to Life with Our Stunning Web Animations</p>
     </div>
-    <div class="col-md-4">
-      <div class="card-body">
-      <img src={headerImg} class="card-img" alt="Your Image"/>
+    <div className="col-md-4">
+      <div className="card-body">
+      <img src={headerImg} className="card-img" alt="Your Image"/>
       </div>
     </div>
   </div>
@@ -21,21 +21,21 @@ function MainSec() {
 </div> */
 
     <section>
-      <div class="container-fluid">
-        <div class="section">
-          <div class="leftText">
-            <div class="txtBody">
-              <h1 class="moveTxt">
+      <div className="container-fluid">
+        <div className="section">
+          <div className="leftText">
+            <div className="txtBody">
+              <h1 className="moveTxt">
                 Move Your
                 <br /> Audience
               </h1>
             </div>
-            <div class="descriptionTxt">
+            <div className="descriptionTxt">
               Bring Your Website to Life with Our Stunning <br />
               Web Animations
             </div>
           </div>
-          <div class="rightImg">
+          <div className="rightImg">
             <img src={headerImg} alt="" />{" "}
           </div>
         </div>

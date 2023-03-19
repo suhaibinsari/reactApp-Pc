@@ -1,0 +1,9 @@
+.logo {
+  position: absolute;
+  border: 2px solid pink;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-top: 0.1rem;
+  color: pink;
+  background-color: blue;
+}
