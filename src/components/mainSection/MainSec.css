@@ -1,0 +1,97 @@
+
+
+.section {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 2px solid black;
+    width: 100rem;
+    margin: auto;
+    width: 50%;
+    padding:5px;
+    margin-top: 5rem;
+  }
+  
+  .section > .leftText {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    line-height: 4rem;
+    width: 100%;
+    margin-bottom: 10rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .txtBody {
+    font-size: 4em;
+    margin-bottom: 1em;
+    line-height: normal;
+  }
+  
+  .moveTxt {
+    font-size: 4rem;
+    width: 100%;
+    font-weight: 700;
+  }
+  
+  .descriptionTxt {
+    font-size: 1.3rem;
+    margin-top: -4rem;
+  }
+  
+  
+
+  
+  .section > .rightImg {
+    display: flex;
+    justify-content: flex-end;
+    height: 30rem;
+    width: 50%;
+  }
+  
+  /* Media query for screens smaller than 768px (tablets) */
+  @media only screen and (max-width: 768px) {
+    .section {
+      flex-direction: column;
+      margin-top: 3rem;
+    }
+  
+    .section > .left-text {
+      width: 100%;
+      margin-bottom: 5rem;
+    }
+  
+    .section > .right-img {
+      justify-content: center;
+      height: auto;
+      width: 100%;
+      display: none;
+    }
+  
+    .btn1 {
+      padding: 0.1rem 6rem;
+    }
+  }
+  
+  /* Media query for screens smaller than 576px (mobile devices) */
+  @media only screen and (max-width: 576px) {
+    .section > .left-text {
+      line-height: 3rem;
+      margin-bottom: 3rem;
+    }
+  
+    .vpn {
+      font-size: 3em;
+    }
+  
+    .h1-eng {
+      font-size: 2.5rem;
+    }
+  
+    .btn1 {
+      padding: 0.1rem 4rem;
+      font-size: 1rem;
+    }
+  }
