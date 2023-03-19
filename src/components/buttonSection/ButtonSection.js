@@ -4,7 +4,7 @@ function ButtonSection() {
   return (
     <div className="btnBar">
       <div className="button-container">
-        <button>Button 1</button>
+        <button className="btn1">Button 1</button>
         <button>Button 2</button>
         <button>Button 3</button>
         <button>Button 4</button>
@@ -13,7 +13,7 @@ function ButtonSection() {
         <button>Button 7</button>
         <button>Button 8</button>
         <button>Button 9</button>
-        <button>Button 10</button>
+        <button className="btn10">Button 10</button>
       </div>
     </div>
   );

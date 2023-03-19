@@ -6,17 +6,17 @@ function Cards() {
   return (
     <div className="cardHead">
       <div className="card-container">
-        <div className="card col-sm-4">
+        <div className="card">
           <img src={c1} alt="Card Image" />
           <h3>Card Title 1</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div className="card col-sm-4">
+        <div className="card ">
           <img src={c1} alt="Card Image" />
           <h3>Card Title 2</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div className="card col-sm-4">
+        <div className="card">
           <img src={c1} alt="Card Image" />
           <h3>Card Title 3</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
