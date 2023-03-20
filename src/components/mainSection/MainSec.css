@@ -1,14 +1,14 @@
 .section {
   display: flex;
   align-items: center;
-  border: 2px solid black;
+  justify-content: center;
   border-radius: 1rem;
   width: 100rem;
   margin: auto;
   width: 80%;
   padding: 5px;
   margin-top: 5rem;
-  background-color: gainsboro;
+  background-color: #e2e8f0;
 }
 
 .section > .leftText {
@@ -17,8 +17,9 @@
   font-weight: bolder;
   line-height: 4rem;
   width: 100%;
-  margin-bottom: 10rem;
+  margin-bottom: 1rem;
   justify-content: center;
+  padding-left: 3rem;
 }
 
 .txtBody {
@@ -32,12 +33,15 @@
   font-size: 4rem;
   width: 100%;
   font-weight: 700;
+  color: #516e6b;
 }
 
 .descriptionTxt {
   font-size: 1.3rem;
   margin-top: -4rem;
   line-height: 2;
+  color: #516e6b;
+  font-weight: 400;
 }
 
 .section > .rightImg {
@@ -46,6 +50,8 @@
   height: 20rem;
   width: 50%;
   align-items: center;
+  margin-left: 7rem;
+  position: absolute;
 }
 
 /* Media query for screens smaller than 768px (tablets) */

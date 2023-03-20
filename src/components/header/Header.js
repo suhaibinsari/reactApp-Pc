@@ -3,7 +3,7 @@ import "./Header.css";
 function Header() {
   return (
     <>
-      <nav className="nb navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="nb navbar navbar-expand-lg navbar-dark">
         <div className="container">
           <a className="navbar-brand" href="#">
             {/* <img src="logo.png" alt="Logo" /> */}
@@ -20,7 +20,7 @@ function Header() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div className="collapse navbar-collapse p-3" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <a className="nav-link" href="#">
